@@ -1,3 +1,39 @@
-.home-content h1 {
-    color: green;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #004d00;
+    color: white;
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    padding: 0 50px;
+}
+
+.text-box {
+    max-width: 50%;
+}
+
+.text-box h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.text-box p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.image-box {
+    background-image: url("../../Resource/Images/Start.PNG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 450px; 
+    height: 350px;
+    border-radius: 40px;
 }
