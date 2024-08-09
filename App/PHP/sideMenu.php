@@ -7,17 +7,17 @@
 </head>
 <body>
     <div class="sideMenu">
-        <button class="category" id="urban">Urban <img src="../Resource/Icons/arrow1.png" class="arrow" id="urbanArrow"/></button>
+        <button class="category" id="urban">Urban <img src="../Resource/Icons/arrow1.png" class="arrow" id="urbanArrow"/></button><br>
         <div class="subCategory" id="urbanCat">
-            <button id="agriculture">Agriculture lands</button>
-            <button id="commercial">Commercial lands</button>
-            <button id="residential">Residential lands</button>
-        </div>
-        <button class="category" id="rural">Rural <img src="../Resource/Icons/arrow1.png" class="arrow" id="ruralArrow"/></button>
+            <button id="agriculture">Agriculture lands</button><br>
+            <button id="commercial">Commercial lands</button><br>
+            <button id="residential">Residential lands</button><br>
+        </div><br>
+        <button class="category" id="rural">Rural <img src="../Resource/Icons/arrow1.png" class="arrow" id="ruralArrow"/></button><br>
         <div class="subCategory" id="ruralCat">
-            <button id="agriculture">Agriculture lands</button>
-            <button id="commercial">Commercial lands</button>
-            <button id="residential">Residential lands</button>
+            <button id="agriculture">Agriculture lands</button><br>
+            <button id="commercial">Commercial lands</button><br>
+            <button id="residential">Residential lands</button><br>
         </div>
     </div>
     <script src="../JS/sideMenu.js"></script>
