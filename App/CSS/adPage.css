@@ -1,0 +1,77 @@
+.adPage{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.ad{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.landImage{
+    overflow: hidden;
+    margin: 20px;
+}
+
+.landImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ownerDet{
+    background-color: #D9D9D9;
+    margin: 20px;
+    padding: 20px 40px;
+}
+
+.landDet{
+    background-color: #D9D9D9;
+    grid-column: span 2;
+    margin: 20px;
+    padding: 20px 40px;
+}
+
+.ownerDet p, .landDet p{
+    display: flex;
+    align-items: center;
+}
+
+.ownerDet h3{
+    font-size: 50px;
+}
+
+.landDet h2{
+    font-size: 50px;
+}
+
+.ownerDet .icon{
+    width: 40px;
+    padding: 5px 20px;
+}
+
+.landDet .icon{
+    width: 40px;
+    padding: 5px 20px;
+}
+
+.ownerDet span{
+    font-size: 30px;
+    color: #000;
+}
+
+.landDet span{
+    font-size: 30px;
+    color: #000;
+}
+
+.landDet .price{
+    color: #008E42;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.landDet .description{
+    font-size: 30px;
+    color: #000;
+}
