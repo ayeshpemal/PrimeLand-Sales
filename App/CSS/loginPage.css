@@ -1,0 +1,78 @@
+body{
+    background-image: url("../Resource/Images/Login.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    color:#004B23;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+.form{
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255,255,255,0.6);
+    min-height: 450px;
+    min-width: 350px;
+    max-height: 500px;
+    max-width: 400px;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+}
+.form-group{
+    margin-bottom: 15px; 
+}
+.button-group {
+    margin-top: 40px;
+}
+label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 2px;
+    font-size: 20px;
+}
+input {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border: 3px solid #004B23;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+.btn{
+    border-radius: 20px;
+    border-style: none;
+    background-color: #004B23;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    height: 45px;
+}
+.button-group {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.button-group .btn {
+    margin-right: 20px;
+}
+.button-group .btn:last-child {
+    margin-right: 0;
+}
