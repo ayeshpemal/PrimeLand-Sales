@@ -10,7 +10,7 @@
 
 .landImage{
     overflow: hidden;
-    margin: 20px;
+    margin: 1vw;
 }
 
 .landImage img{
@@ -21,15 +21,15 @@
 
 .ownerDet{
     background-color: #D9D9D9;
-    margin: 20px;
-    padding: 20px 40px;
+    margin: 1vw;
+    padding: 0 5vw;
 }
 
 .landDet{
     background-color: #D9D9D9;
     grid-column: span 2;
-    margin: 20px;
-    padding: 20px 40px;
+    margin: 1vw;
+    padding: 0 5vw;
 }
 
 .ownerDet p, .landDet p{
@@ -37,41 +37,31 @@
     align-items: center;
 }
 
-.ownerDet h3{
-    font-size: 50px;
+.ownerTitle, .landTitle{
+    font-weight: bold;
+    font-size: 2.8vw;
+    margin-bottom: 0;
 }
 
-.landDet h2{
-    font-size: 50px;
+.ownerDet .icon, .landDet .icon{
+    width: 2.3vw;
+    padding: 0.5vw 1.5vw;
 }
 
-.ownerDet .icon{
-    width: 40px;
-    padding: 5px 20px;
-}
-
-.landDet .icon{
-    width: 40px;
-    padding: 5px 20px;
-}
-
-.ownerDet span{
-    font-size: 30px;
-    color: #000;
-}
-
-.landDet span{
-    font-size: 30px;
+.ownerDet span, .landDet span{
+    font-size: 1.8vw;
     color: #000;
 }
 
 .landDet .price{
     color: #008E42;
-    font-size: 50px;
+    font-size: 2.5vw;
     font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .landDet .description{
-    font-size: 30px;
+    font-size: 1.5vw;
     color: #000;
 }
