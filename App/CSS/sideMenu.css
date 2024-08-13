@@ -1,18 +1,18 @@
 .sideMenu{
     display: flex-direction-column;
     background-color: #004B23;
-    width: 300px;
+    width: 15vw;
     height: 100vh;
-    padding: 10px;
-    padding-top: 30px;
+    padding: 1.5vw;
+    padding-top: 3vw;
 }
 
 button{
     background-color: #004B23;
-    border-radius: 20px;
+    border-radius: 3vw;
     border: 2px solid black;
-    padding: 5px 10px;
-    margin: 5px;
+    padding: 0.5vw 1vw;
+    margin: 0.5vw;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -23,17 +23,17 @@ button:hover{
 }
 
 .category{
-    padding-top: 0px;
+    font-size: 1.3vw;
 }
 
-.subCategory{
-    padding-left: 20px;
-    transition: height 0.3s;
+.subCategory button{
+    margin-left: 2vw;
+    transition: height 1s;
+    font-size: 1vw;
 }
 
 .arrow{
-    height: 18px;
-    width: 18px;
+    height: 1vw;
+    width: 1vw;
     transition: transform 0.3s;
-    padding-top: 3px;
 }

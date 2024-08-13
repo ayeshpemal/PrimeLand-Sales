@@ -13,10 +13,10 @@
         </div>
         <div class="navList">
             <ul class="navListItems">
-                <li><a href="#" class="navLinks">Home</a></li>
-                <li><a href="#" class="navLinks">Categories</a></li>
-                <li><a href="#" class="navLinks">Advertisement</a></li>
-                <li><a href="#" class="navLinks">Contact</a></li>
+                <li><a href="homePage.php" class="navLinks">Home</a></li>
+                <li><a href="Categories.php" class="navLinks">Categories</a></li>
+                <li><a href="Advertisement.php" class="navLinks">Advertisement</a></li>
+                <li><a href="contactPage.php" class="navLinks">Contact</a></li>
             </ul>
         </div>
     </nav>
